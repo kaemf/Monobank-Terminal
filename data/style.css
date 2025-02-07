@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: white;
+    margin: 0;
+}
+
+body{
+    width: 97%;
+    height: 95%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 278px;
+    height: 25px;
+}
+
+.exchange-rates{
+    width: 404px;
+    height: 42px;
+    border-radius: 8px;
+    background: #F4F4F4;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
+
+.exchange-rates > .block{
+    font-family: "Inter", serif;
+
+    width: 160px;
+    height: 42px;
+    /* background: #000000; */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.exchange-rates > .block > .exchange-rate-value, .support-data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.exchange-rates > .block > .exchange-rate-value > .title, .support-data > .title{
+    font-weight: 500;
+    color: #565656;
+}
+
+.exchange-rates > .block > .exchange-rate-value > .value, .support-data > .value{
+    font-weight: bold;
+    color: black;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.welcome-text{
+    font-family: "Inter", serif;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.welcome-emoji{
+    font-size: 50px;
+}
+
+.action, .instruction, .illustration{
+    width: 436px;
+}
+
+.group-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 20px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-family: 'Inter', serif;
+    background: #F4F4F4;
+    /* !! */
+    margin-top: 30px;
+}
+
+.group-container > .title{
+    text-align: start;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+.group-container > .group-item, .group-container > .services-items > .group-item{
+    margin-top: 9px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 184px;
+    height: 125px;
+    gap: 8px;
+}
+
+.services-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.group-container > .group-item > .title, .group-container > .services-items > .group-item > .title{
+    width: 60%;
+    text-align: center;
+}
+
+.refill-card{
+    width: 100% !important;
+}
+
+.other{
+    width: 100% !important;
+    height: 51px !important;
+    flex-direction: row !important;
+}
+
+.other > .title{
+    width: auto !important;
+}
+
+.airpods{
+    width: 40px;
+    height: 40px;
+}
+
+.support-icons{
+    width: 32px;
+    height: 32px;
+}
+
+.tech{
+    display: flex;
+    gap: 12px;
+}
+
+.socials{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
