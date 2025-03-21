@@ -339,7 +339,20 @@ header{
     width: 205.42px;
     height: 121px;
     border-radius: 8px;
+    background: #F4F4F4;
+    font-family: 'Inter', serif;
+    font-weight: 800;
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.action-part > .block > .title{
+    width: 70%;
+    text-align: center;
 }
 
 .button-withdraw{
@@ -371,4 +384,89 @@ footer > .support{
     display: flex;
     flex-direction: column;
     gap: 23px;
+}
+
+.main-operation-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.balance{
+    display: flex;
+    gap: 21px;
+    font-family: "Inter", serif;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 28px;
+}
+
+.balance > .title{
+    font-weight: 600;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: max-content;
+}
+
+.key {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    font-family: "Inter", serif;
+    background: #f5f5f5;
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.key:hover{
+    background: #e0e0e0;
+}
+
+.delete {
+    width: 32px;
+    height: 32px;
+}
+  
+.key.zero {
+    grid-column: 2 / 3;
+}
+
+.key_backspace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.realtime-operation-screen{
+    display: flex;
+    align-items: center;
+    font-family: "Inter", serif;
+    font-size: 56px;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 28px;
+}
+
+.realtime-operation-screen > .exchange{
+    width: 38.25px;
+    height: 33.77px;
+    margin-left: 6.37px;
+}
+
+.hide-show-btn{
+    background: #f5f5f5;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
 }
